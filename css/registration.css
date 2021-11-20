@@ -1,0 +1,361 @@
+@font-face {
+    font-family: Medium;
+    src: url(/fonts/Stem-Medium.ttf);
+}
+
+body {
+    background-color: #E9F3F5;
+    width: 1920px;
+    height: 1080px;
+}
+
+.main-content {
+    position: absolute;
+    width: 600px;
+    height: 878px;
+    left: calc(50% - 600px/2);
+    top: 73px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.RegH {
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    left: calc(50% - 172px/2);
+    top: 50px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #3F434A;
+}
+
+.RegGoogle {
+    position: absolute;
+    width: 410px;
+    height: 40px;
+    left: 100px;
+    top: 170px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 10px 128px 10px 128px;
+    border-radius: 15px;
+}
+
+.RegGoogle:hover {
+    background-color: #595F69;
+    color: #FFFFFF;
+}
+
+.icon-google {
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    left: 14px;
+    top: 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+div.title {
+    width: 600px;
+    width: 600px;
+    height: 878px;
+    left: calc(50% - 600px/2);
+    top: 73px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+p.pAbo {
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    margin: 250px 0px 202px 202px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8A9099;
+    opacity: 0.6;
+}
+
+.title::before {
+    content:'';
+    display: block;
+    width: 90px;
+    left: 100px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    top:259px;
+}
+
+.title::after {
+    content:'';
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    left: 410px;
+    top:259px;
+}
+
+.pFIO {
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 100px;
+    top: 300px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}
+
+.InText {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 100px;
+    top: 340px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 60px;
+    font-family: Medium;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 0px 0px 0px 16px;
+    border-radius: 15px;
+}
+
+.pEmail {
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 100px;
+    top: 400px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}
+
+.InEmail {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 100px;
+    top: 440px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    line-height: 60px;
+    font-family: Medium;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 0px 0px 0px 16px;
+    border-radius: 15px;
+}
+
+.pPass {
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 100px;
+    top: 500px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}
+
+.InPass {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 100px;
+    top: 540px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: Medium;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 0px 0px 0px 16px;
+    border-radius: 15px;
+}
+
+.password-control {
+    position: absolute;
+    left: 462px;
+    top: 558px;
+}
+
+.RepPass {
+    position: absolute;
+    width: 170px;
+    height: 18px;
+    left: 100px;
+    top: 600px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}
+
+.InRepPass {
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    left: 100px;
+    top: 640px;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 30px;
+    line-height: 60px;
+    font-family: Medium;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 0px 0px 0px 16px;
+    border-radius: 15px;
+}
+
+.password-control-rep {
+    position: absolute;
+    left: 462px;
+    top: 658px;
+}
+
+.InBox {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: calc(50% - 16px/2 - 192px);
+    top: 705px;
+}
+
+.pAgri {
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: calc(50% - 352px/2);
+    top: 694px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #595F69;
+}
+
+.aPolit {
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: calc(50% - 80px/2);
+    top: 708px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #304FFD;
+    text-decoration: none;
+}
+
+.aPolit:hover {
+    color: #595F69;
+}
+
+.bInput {
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: calc(50% - 400px/2);
+    top: 740px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #304FFD;
+    border-left: 0.7px solid #E8E9EB;
+    border-top: 0.7px solid #E8E9EB;
+    border-bottom: 0.7px solid #E8E9EB;
+    border-right: 0.7px solid #E8E9EB;
+    padding: 10px 128px 10px 128px;
+    border-radius: 15px;
+}
+
+.bInput:hover {
+    background-color: #595F69;
+    color: #FFFFFF;
+}
+
+.pEst {
+    position: absolute;
+    width: 171px;
+    height: 18px;
+    left: calc(50% - 171px/2 + 0.5px);
+    top: 825px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8A9099;
+}
+
+.aInput {
+    text-decoration: none;
+    color: #304FFD;
+}
+
+.aInput:hover {
+    color: #595F69;
+}
